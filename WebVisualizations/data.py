@@ -4,7 +4,7 @@ import pandas as pd
 df = pd.read_csv('Resources/cities.csv')
 	
 # Save as html file
-df.to_html('data1.html', index=False)
+df.to_html('data.html', index=False)
 	
 # Assign to table to view
 table = df.to_html()
